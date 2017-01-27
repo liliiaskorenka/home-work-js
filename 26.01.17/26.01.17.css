@@ -1,0 +1,83 @@
+
+body {
+    font-family: sans-serif;
+}
+.add {
+    color: white;
+    background-color: crimson;
+    font-size: 36px;
+    border-radius: 5px;
+    border: 5px solid brown;
+    box-shadow: 3px 3px 3px #888888;
+    transition-duration: 0.4s;
+    position: absolute;
+    top: 308px;
+    right: 258px;
+    z-index: 1;
+}
+.add:hover {
+    background-color: white;
+    color: crimson;
+    box-shadow: 3px 3px 3px #888888;
+}
+.handcuff {
+    position: absolute;
+    width: 800px;
+    top: 0px;
+    z-index: -1;
+}
+.neighbors {
+    position: absolute;
+    width: 600px;
+    top: 12px;
+    left: 43px;
+}
+.img_center {
+    height: 500px;
+    width: 900px;
+    position: relative;
+    margin: 0 auto;
+}
+
+.btn_submit {
+    top: 100px;
+    background-color: #888888;
+    color: gold;
+    box-shadow: 3px 3px 3px #888888;
+    border-radius: 5px;
+    border: 5px solid sandybrown;
+    font-size: 36px;
+    margin: 0 auto;
+    font-weight: bold;
+}
+.btn_submit:hover {
+    background-color: gold;
+    color: #888888;
+    box-shadow: 3px 3px 3px #888888;
+}
+form {
+    text-align: center;
+}
+.divData {
+    display: inline-block;
+    color: aqua;
+    padding-left: 20px;
+}
+.divName {
+    display: inline-block;
+    color: aqua;
+    padding-left: 20px;
+    vertical-align: text-top;
+}
+.divD {
+text-align: center;
+    margin: 10px;
+}
+
+.message {
+    color: red;
+    font-style: italic;
+}
+
+
+
