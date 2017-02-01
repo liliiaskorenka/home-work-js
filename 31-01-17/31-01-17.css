@@ -1,0 +1,98 @@
+body {
+    background-color: blue;
+    font-family: sans-serif;
+}
+table,th,td {
+    border : 1px double dodgerblue;
+    border-collapse: collapse;
+    background-color: white;
+}
+th,td {
+    padding: 5px;
+}
+.table_center {
+    margin: 0 auto;
+    width: 1000px;
+}
+table {
+    width: 100%;
+}
+
+.button_delete_name {
+    border : 1px solid cornflowerblue;
+    background-color: darkblue;
+    color: aliceblue;
+
+}
+.button_delete_name:hover {
+    border : 1px solid cornflowerblue;
+    background-color: aliceblue;
+    color: darkblue;
+
+}
+.imgFon {
+    position: relative;
+}
+
+.cloudlet {
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 150px;
+    z-index: -1;
+    animation: move 20s infinite;
+}
+
+@keyframes move {
+    0%   {left: -120px;}
+    50%  {left: 170px;}
+    100% {left: -120px;}
+}
+
+.cloudlet2 {
+    position: fixed;
+    left: 0;
+    top: 100px;
+    width: 150px;
+    z-index: -1;
+    animation: move2 25s infinite;
+}
+
+@keyframes move2 {
+    0%   {left: -300px;}
+    50%  {left: 180px;}
+    100% {left: -300px;}
+}
+
+.cloudlet3 {
+    position: fixed;
+    left: 0;
+    top: 200px;
+    width: 150px;
+    z-index: -1;
+    animation: move3 30s infinite;
+}
+
+@keyframes move3 {
+    0%   {left: -480px;}
+    50%  {left: 175px;}
+    100% {left: -480px;}
+}
+
+.sun {
+    position: fixed;
+    right: 0;
+    top: 0;
+    width: 150px;
+    z-index: -1;
+    animation: moveSun 20s infinite;
+}
+
+@keyframes moveSun {
+    0% {
+        transform: rotateZ(0deg);
+    }
+100% {
+    transform: rotateZ(360deg);
+}
+}
